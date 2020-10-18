@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <conio.h>
 
-// #include "login.c"
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
 typedef struct {
 	char UserId[30];
 	char password[30];
@@ -14,9 +11,9 @@ typedef struct {
     float accountBalance;
 
 
-} UserDetails;
+} UserDetails;			// Isme account Details Dalna hai jisko baad me karenge
 
-User u[50];
+User u[50];			// Total User Capacity
 
 static int CURENTSIZE = 1;
 
